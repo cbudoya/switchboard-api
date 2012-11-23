@@ -1,5 +1,5 @@
 from django.db import models
-
+# default
 # Create your models here.
 class contact(models.Model):
     first_name = models.CharField(max_length=40)
