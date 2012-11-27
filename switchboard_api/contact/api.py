@@ -1,8 +1,7 @@
 from tastypie.resources import ModelResource
 from tastypie import fields
-
 from contact.models import contact
-
+# api  
 class contactResource(ModelResource):
     
     class Meta:
